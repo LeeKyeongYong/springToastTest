@@ -13,7 +13,7 @@ public class OrderService {
         if(!matched) throw new RuntimeException("결제금액이 일치하지 않습니다.");
 
     }
-    public void setPaymentComplate(String orderId){
+    public void setPaymentComplate(String orderId){ //결제상태 처리
 
     }
 }
